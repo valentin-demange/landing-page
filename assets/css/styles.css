@@ -1,0 +1,56 @@
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    height: 70px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: right;
+    align-items: right;
+    text-align: center;
+    font-family: "Roboto";
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center
+}
+
+.h-links {
+    flex: 1; 
+    max-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ 
+ #h-logo {
+    flex: 1;
+    max-width: 140px;
+    margin-right: auto;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+#main-1 {
+    height: 300px;
+}
+
+#main-2 {
+    height: 300px;
+}
+
+#main-3 {
+    height: 300px;
+}
+
+#main-4 {
+    height: 300px;
+}
+
+#footer {
+    height: 50px;
+}
